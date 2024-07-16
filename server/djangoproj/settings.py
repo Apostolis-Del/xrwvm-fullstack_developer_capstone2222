@@ -30,17 +30,20 @@ DEBUG = True
 
 # settings.py
 
+# settings.py
+
 ALLOWED_HOSTS = [
-    'antelidimos-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
+    'antelidimos-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
     'localhost',
     '127.0.0.1',
     # Add any other hosts you need to allow
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://antelidimos-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai',
+    'https://antelidimos-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
     # Add any other origins you need to trust
 ]
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
